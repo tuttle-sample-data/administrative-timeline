@@ -6,7 +6,7 @@
     <ns uri="http://www.tei-c.org/ns/1.0" prefix="tei"/>
     <ns uri="http://www.functx.com" prefix="functx"/>
     <pattern id="div-head-checks">
-        <rule context="tei:div[@type = 'section']">
+        <rule context="tei:div[@type = 'hhh']">
             <assert test="not(tei:head/tei:date)">Sections heads should not have date
                 elements</assert>
         </rule>
