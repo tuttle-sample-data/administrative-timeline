@@ -5,7 +5,7 @@
     <ns uri="http://www.functx.com" prefix="functx"/>
     <pattern id="div-head-checks">
         <rule context="tei:div[@type = 'section']">
-            <assert test="not(tei:head/tei:date)">Sections heads should not have date
+            <assert test="not(tei:head/tei:date)">Sections sadf should not have date
                 elements</assert>
         </rule>
         <rule context="tei:div[not(@type)]">
